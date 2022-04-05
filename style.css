@@ -15,7 +15,6 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: uppercase;
     transition: all .2s linear;
 }
 
@@ -92,6 +91,12 @@ section{
     margin:0 1rem;
     font-size: 1.7rem;
     color:var(--main-color);
+    transition: all 0.2s linear;
+}
+
+.header .navbar a:hover {
+    text-decoration: underline dashed;
+
 }
 
 .header .btn{
