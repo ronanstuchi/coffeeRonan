@@ -280,11 +280,12 @@ section{
     line-height: 1.8;
 }
 
-.menu .box-container .box .content p{
+.menu .box-container .box .content a{
     font-size: 1.6rem;
     color:var(--main-color);
     line-height: 1.8;
     padding:1rem 0;
+
 }
 
 .menu .box-container .box .content span{
