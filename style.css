@@ -262,6 +262,7 @@ section{
     align-items: center;
     gap:1.5rem;
     margin-left: 6rem;
+
 }
 
 .menu .box-container .box:hover{
@@ -272,6 +273,7 @@ section{
 .menu .box-container .box img{
     height: 8rem;
     margin-left: -6rem;
+    
 }
 
 .menu .box-container .box .content h3{
@@ -280,12 +282,12 @@ section{
     line-height: 1.8;
 }
 
-.menu .box-container .box .content a{
+.menu .box-container .box .content p{
     font-size: 1.6rem;
     color:var(--main-color);
     line-height: 1.8;
     padding:1rem 0;
-
+    
 }
 
 .menu .box-container .box .content span{
@@ -336,22 +338,26 @@ section{
     width:35rem;
     border-radius: 2%;
     margin-bottom: .7rem;
+    
 }
 
 .review .review-slider .box .stars{
     padding:.5rem 0;
 }
 
-.review .review-slider .box .stars i{
+.review .review-slider .box .stars a{
     font-size: 1.7rem;
     color:var(--main-color);
+    
 }
 
-.review .review-slider .box p{
-    font-size: 1.6rem;
+.review .review-slider .box a{
+    font-size: 2rem;
     color:var(--main-color);
     padding:1rem 0;
     line-height: 1.8;
+    cursor:pointer;
+    text-decoration:underline;
 }
 
 .review .review-slider .box h3{
